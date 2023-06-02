@@ -1,0 +1,9 @@
+.feedback {
+  text-transform: capitalize;
+}
+
+.item {
+  text-align: left;
+  /* width: 200px; */
+  margin: 0 auto;
+}
