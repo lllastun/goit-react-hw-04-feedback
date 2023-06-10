@@ -1,5 +1,5 @@
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Statistics from './Satistics/Statistics';
 import Notification from './Notification/Notification';
 
@@ -8,10 +8,6 @@ const App = () => {
     bad: 0,
     neutral: 0,
     good: 0,
-  });
-
-  useEffect(() => {
-    countTotalFeedback();
   });
 
   const countTotalFeedback = () => {
